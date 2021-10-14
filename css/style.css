@@ -47,14 +47,16 @@ html {
 .col-sx,
 .col-dx {
     width: 25%;
-    height: 190px;
+    height: 180px;
+    margin: 0 auto;
 }
+
+
 
 .col-cn {
     width: calc(50% - 20px);
-    height: 190px;
-    margin: 0 10px;
-    
+    height: 180px;
+    margin: 0 10px;   
 }
 
 [class*="col-"] {
