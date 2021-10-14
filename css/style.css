@@ -8,6 +8,18 @@ html {
     font-size: 100%;
 }
 
+/* layout */
+
+.contenitore {
+    width: 80%;
+    height: 100px;
+    margin: 10px auto;
+}
+
+.intestazione {
+    height: 100px;
+    background-color: violet;
+}
 
 
 
