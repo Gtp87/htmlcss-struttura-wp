@@ -1,0 +1,82 @@
+/* body {
+    background-color: red;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+
+/* layout */
+
+.contenitore {
+    width: 80%;
+    margin: 10px auto;
+}
+
+.intestazione {
+    height: 100px;
+    background-color: darkcyan;
+}
+
+.principale {
+    margin: 10px auto;
+}
+
+[class*="c-"] {
+    float: left;
+    margin: 10px;
+    }
+
+.c-rosso, 
+.c-verde {
+    width: calc(20% - 20px);
+}
+
+.c-blu,
+.c-giallo {
+    width: calc(30% - 20px);
+}
+
+.c-rosso {
+    background-color: red;
+    height: 400px;
+}
+
+.c-blu {
+    background-color:blue;
+    height: 200px;
+}
+
+.c-verde {
+    background-color:green;
+    height: 500px;
+}
+
+.c-giallo {
+    background-color: yellow;
+    height: 450px;
+}
+
+.fine {
+   text-align: center;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    display: inline-block;
+}
