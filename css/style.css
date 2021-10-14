@@ -8,6 +8,12 @@ html {
     font-size: 100%;
 }
 
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
 /* layout */
 
 .contenitore {
