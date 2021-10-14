@@ -47,7 +47,6 @@ html {
 .col-sx,
 .col-dx {
     width: 25%;
-    height: 180px;
     margin: 0 auto;
 }
 
@@ -55,12 +54,12 @@ html {
 
 .col-cn {
     width: calc(50% - 20px);
-    height: 180px;
     margin: 0 10px;   
 }
 
 [class*="col-"] {
     float: left;
+    height: 180px;
     background-color: lightblue;
 }
 
