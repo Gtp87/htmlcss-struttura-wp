@@ -39,6 +39,11 @@ html {
     background-color:lightblue;
 }
 
+.col-sx,
+.col-dx {
+    width: 25%;
+}
+
 .fine-pagina {
     height: 80px;
     background-color: purple;
