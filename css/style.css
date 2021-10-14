@@ -44,6 +44,10 @@ html {
     width: 25%;
 }
 
+.col-cn {
+    width: 50%;
+}
+
 .fine-pagina {
     height: 80px;
     background-color: purple;
