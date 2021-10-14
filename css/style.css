@@ -35,7 +35,7 @@ html {
 .articoli {
     height: 250px;
     background-color: blue;
-    margin: 10px 0;
+    margin: 10px 0 5px;
 }
 
 .titolo {
@@ -47,10 +47,13 @@ html {
 .col-sx,
 .col-dx {
     width: 25%;
+    height: 190px;
 }
 
 .col-cn {
-    width: 50%;
+    width: calc(50% - 20px);
+    height: 190px;
+    margin: 0 10px;
     
 }
 
@@ -62,6 +65,7 @@ html {
 .fine-pagina {
     height: 30px;
     background-color: purple;
+    
 }
 
 
