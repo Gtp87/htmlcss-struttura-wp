@@ -52,6 +52,7 @@ html {
 
 .col-cn {
     width: 50%;
+    margin: 0 10px;
 }
 
 [class*="col-"] {
